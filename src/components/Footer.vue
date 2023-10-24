@@ -152,6 +152,7 @@ import Link from '@/components/Link.vue'
   background-color: var(--blue-dark);
   color: var(--white);
   font-size: 1.6rem;
+  height: 17.8rem;
 }
 .footer-wrapper {
   display: flex;

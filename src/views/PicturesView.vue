@@ -16,6 +16,6 @@ onMounted(() => {
 
 <style scoped>
 .entry-viewer {
-  height: calc(100vh - 22.8rem);
+  height: calc(100vh - 18.5rem);
 }
 </style>
