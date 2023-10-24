@@ -3,16 +3,19 @@ import { createI18n } from 'vue-i18n'
 import App from './App.vue'
 import router from './router'
 import fr from './locales/fr.json'
+import en from './locales/en.json'
 import 'geovisio/build/index.css'
 
 import './assets/main.css'
 
 const i18n = createI18n({
-  locale: 'fr',
+  locale: navigator.language,
+  fallbackLocale: 'fr',
   globalInjection: true,
   legacy: false,
   messages: {
-    fr
+    fr,
+    en
   }
 })
 const app = createApp(App)

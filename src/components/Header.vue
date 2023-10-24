@@ -86,6 +86,7 @@ const displayed = ref<boolean>(true)
   padding-right: 8%;
   padding-left: 8%;
   height: 7rem;
+  border-bottom: 0.1rem solid var(--grey);
 }
 .nav {
   display: flex;

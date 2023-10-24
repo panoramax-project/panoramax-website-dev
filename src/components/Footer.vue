@@ -180,9 +180,8 @@ import Link from '@/components/Link.vue'
 }
 @media (max-width: 768px) {
   .footer {
-    padding-right: 2rem;
-    padding-left: 2rem;
-    padding-bottom: 1rem;
+    padding: 1.5rem 2rem 0;
+    height: initial;
   }
   .footer-wrapper {
     flex-wrap: wrap;
