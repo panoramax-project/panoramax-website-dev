@@ -5,7 +5,7 @@
 <script setup>
 import { onMounted, ref } from 'vue'
 import { Viewer } from 'geovisio'
-let viewer = ref()
+const viewer = ref()
 onMounted(() => {
   viewer.value = new Viewer(
     'viewer', // Div ID
