@@ -1,7 +1,12 @@
 <template>
   <li class="entry-how-it-works">
     <div class="head">
-      <img :src="img(props.image.url)" :alt="props.image.alt" class="image" />
+      <img
+        :src="img(props.image.url)"
+        :alt="props.image.alt"
+        loading="lazy"
+        class="image"
+      />
       <h3 class="title">{{ props.title }}</h3>
     </div>
     <div
@@ -9,7 +14,12 @@
       :key="text"
       class="description-wrapper"
     >
-      <img src="@/assets/images/check-icon.svg" alt="" class="check-icon" />
+      <img
+        src="@/assets/images/check-icon.svg"
+        alt=""
+        loading="lazy"
+        class="check-icon"
+      />
       <p class="description">
         {{ text }}
       </p>

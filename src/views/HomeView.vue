@@ -15,16 +15,19 @@
       <img
         src="@/assets/images/person-taking-photo.jpg"
         :alt="$t('pages.home.illustration_alt')"
+        loading="lazy"
         class="image-top-home"
       />
       <img
         src="@/assets/images/upload-person.jpg"
         :alt="$t('pages.home.illustration_alt')"
+        loading="lazy"
         class="image-top-home"
       />
       <img
         src="@/assets/images/view.png"
         :alt="$t('pages.home.illustration_alt')"
+        loading="lazy"
         class="image-top-home"
       />
     </section>
@@ -114,6 +117,7 @@
           <img
             :src="community.url"
             :alt="community.alt"
+            loading="lazy"
             class="logo-community"
           />
         </li>
@@ -132,6 +136,7 @@
             <div slot="content" class="wrapper-button">
               <img
                 src="@/assets/images/mail-icon.svg"
+                loading="lazy"
                 alt=""
                 class="image-mail"
               />
@@ -154,6 +159,7 @@
                   <div>
                     <img
                       src="@/assets/images/calendar-icon.svg"
+                      loading="lazy"
                       alt=""
                       class="image-mail"
                     />
@@ -275,9 +281,7 @@ const howItWorks = <HowItWorksData[]>[
   }
 ]
 const joinUs_link = <joinUsData>{
-  title: t('pages.home.joinUs_link.title'),
-  text: t('pages.home.joinUs_link.text'),
-  url: t('pages.home.joinUs_link.url')
+  title: t('pages.home.joinUs_link.title')
 }
 const joinUsButtons = <joinUsData[]>[
   {
@@ -325,7 +329,8 @@ const communities = <Image[]>[
 onMounted(() => {
   viewer.value = new Viewer(
     'viewer', // Div ID
-    'https://api.panoramax.xyz/api'
+    'https://api.panoramax.xyz/api',
+    { picId: '7bde6d85-a442-4f1b-bd87-86197157b8f0' }
   )
 })
 </script>

@@ -9,7 +9,12 @@
           class="instance-logo"
         >
           <template v-slot:image>
-            <img src="@/assets/images/logo.jpg" alt="" class="logo" />
+            <img
+              src="@/assets/images/logo.jpg"
+              alt=""
+              loading="lazy"
+              class="logo"
+            />
           </template>
         </Link>
       </div>
@@ -18,7 +23,11 @@
           <span class="desktop">{{
             $t('general.nav.panoramax_instance')
           }}</span>
-          <img src="@/assets/images/chevron.svg" class="image-chevron" />
+          <img
+            src="@/assets/images/chevron.svg"
+            loading="lazy"
+            class="image-chevron"
+          />
           <div class="instances-block">
             <div class="instance-item-link">
               <Link
@@ -31,6 +40,7 @@
                 <template v-slot:image>
                   <img
                     src="@/assets/images/ign-logo.png"
+                    loading="lazy"
                     class="image-instance-link"
                   />
                 </template>
@@ -47,6 +57,7 @@
                 <template v-slot:image>
                   <img
                     src="@/assets/images/osm-logo.png"
+                    loading="lazy"
                     class="image-instance-link"
                   />
                 </template>
@@ -71,7 +82,7 @@
         </li>
       </ul>
       <button type="button" @click="displayed = !displayed" class="burger">
-        <img src="@/assets/images/burger-icon.svg" />
+        <img src="@/assets/images/burger-icon.svg" loading="lazy" />
       </button>
     </nav>
   </header>
@@ -125,8 +136,9 @@ const displayed = ref<boolean>(true)
 .instances-block div:first-child {
   margin-bottom: 2rem;
 }
+
 .image-instance-link {
-  height: 2rem;
+  width: 2rem;
   margin-right: 1rem;
 }
 .instance-item {
@@ -152,6 +164,11 @@ const displayed = ref<boolean>(true)
 .instance-item:hover > .image-chevron {
   transform: rotate(180deg);
 }
+.instance-item-link {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
 @media (max-width: 768px) {
   .header {
     padding: 0;
@@ -174,7 +191,9 @@ const displayed = ref<boolean>(true)
     background-color: var(--white);
     z-index: 2;
     flex-direction: column;
+    align-items: flex-start;
     display: none;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
   }
   .displayed {
     display: flex;

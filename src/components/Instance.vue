@@ -5,6 +5,7 @@
         v-if="props.image && props.image.url"
         :src="img(props.image.url)"
         :alt="props.image.alt"
+        loading="lazy"
         class="image"
       />
     </div>

@@ -81,7 +81,12 @@
               look="link--white"
             >
               <template v-slot:image>
-                <img src="@/assets/images/x-logo.svg" alt="" class="logo" />
+                <img
+                  src="@/assets/images/x-logo.svg"
+                  loading="lazy"
+                  alt=""
+                  class="logo"
+                />
               </template>
             </Link>
           </li>
@@ -95,6 +100,7 @@
               <template v-slot:image>
                 <img
                   src="@/assets/images/mastodon-logo.svg"
+                  loading="lazy"
                   alt=""
                   class="logo"
                 />
@@ -111,6 +117,7 @@
               <template v-slot:image>
                 <img
                   src="@/assets/images/linkedin-logo.svg"
+                  loading="lazy"
                   alt=""
                   class="logo"
                 />

@@ -9,8 +9,9 @@ import 'geovisio/build/index.css'
 import './assets/main.css'
 
 const i18n = createI18n({
-  locale: navigator.language,
+  locale: navigator.language.split('-')[0],
   fallbackLocale: 'fr',
+  warnHtmlMessage: false,
   globalInjection: true,
   legacy: false,
   messages: {

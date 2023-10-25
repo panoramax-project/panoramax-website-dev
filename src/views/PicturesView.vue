@@ -14,7 +14,8 @@ let viewer = ref()
 onMounted(() => {
   viewer.value = new Viewer(
     'viewer', // Div ID
-    'https://api.panoramax.xyz/api'
+    'https://api.panoramax.xyz/api',
+    { map: { startWide: true, center: [3, 47], zoom: 3.5 } }
   )
 })
 </script>

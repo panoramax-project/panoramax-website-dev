@@ -48,7 +48,7 @@ const props = defineProps({
   text-decoration: none;
   display: flex;
   justify-content: center;
-  width: 100%;
+  width: inherit;
 }
 .default:hover {
   opacity: 0.8;

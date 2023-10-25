@@ -2,7 +2,11 @@
   <div :class="['entry-expandable', { 'is-open': isOpen }]">
     <button type="button" class="button-expandable" @click="isOpen = !isOpen">
       <h3 class="title">{{ props.title }}</h3>
-      <img src="@/assets/images/chevron.svg" class="image-chevron" />
+      <img
+        src="@/assets/images/chevron.svg"
+        loading="lazy"
+        class="image-chevron"
+      />
     </button>
     <div class="article-wrapper">
       <p v-html="props.text" class="article-text"></p>

@@ -16,6 +16,7 @@
             v-if="article.icon"
             :src="article.icon.url"
             :alt="article.icon.alt"
+            loading="lazy"
             class="icon-image"
           />
           <h2 class="article-title" v-if="article.subtitle">
@@ -27,6 +28,7 @@
           v-if="article.image"
           :src="article.image.url"
           :alt="article.image.alt"
+          loading="lazy"
           class="article-image"
         />
       </article>
@@ -39,6 +41,7 @@
             <img
               :src="team.image_url"
               :alt="team.image_alt"
+              loading="lazy"
               class="team-image"
             />
             <span class="team-name">{{ team.name }}</span>
