@@ -81,7 +81,7 @@
         "description": "issues de plusieurs structures"
       },
       "instance_title": "Les instances déjà en ligne",
-      "instance_description": "Les instances blabla lorem blabl lorem blabla lorem blabal lorem Les instances blabla lorem blabl lorem blabla lorem blabal lorem",
+      "instance_description": "Deux instances sont dors et déjà disponibles pour verser des photos et contribuer à Panoramax.",
       "instance_explore": "Explorer →",
       "instance_contribute": "Contribuer →",
       "instance_logo_osm_alt": "Logo Open Street Map",
@@ -102,9 +102,9 @@
       "joinUs_button_2": {
         "title": "Prochain évènement Panoramax",
         "text": "Voir l'agenda complet",
-        "event_link_text": "en visio",
+        "event_link_text": "en visio sur Jitsi",
         "event_text_1": "Temps d'échange mensuel",
-        "event_text_2": "Le 12/06/2023 - 17h",
+        "event_text_2": "Le 13/11/2023 à 17h",
         "event_link_url": "https://meet.jit.si/panoramax",
         "url": "https://cryptpad.fr/calendar/#/2/calendar/view/WKKDBDTk8kWe5-lm+Z9jLksbn9hkKDRE2dVNj4AKEZk/"
       },

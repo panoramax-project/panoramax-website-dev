@@ -2,7 +2,7 @@
   <li class="entry-instance">
     <div class="wrapper-image">
       <img
-        v-if="props.image && props.image.url"
+        v-if="image && props.image.url"
         :src="img(props.image.url)"
         :alt="props.image.alt"
         loading="lazy"
@@ -42,7 +42,8 @@ interface Props {
 const props = defineProps<Props>()
 
 function img(name: string): string {
-  return new URL(`../assets/images/${name}`, import.meta.url).toString()
+  const baseUrl = import.meta.url
+  return new URL(`../assets/images/${name}`, baseUrl).toString()
 }
 </script>
 

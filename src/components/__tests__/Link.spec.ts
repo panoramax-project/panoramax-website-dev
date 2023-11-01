@@ -1,25 +1,25 @@
 import { describe, it, expect } from 'vitest'
 
 import { mount } from '@vue/test-utils'
-import Button from '../Link.vue'
+import Link from '../Link.vue'
 
-describe('Button', () => {
+describe('Link', () => {
   describe('Props', () => {
     it('Should renders properly', () => {
-      const wrapper = mount(Button, {
+      const wrapper = mount(Link, {
         props: {
-          text: 'Button text',
+          text: 'Link text',
           url: 'Url',
           look: 'blue',
           type: ''
         }
       })
-      expect(wrapper.text()).toContain('Button text')
+      expect(wrapper.text()).toContain('Link text')
       expect(wrapper.classes()).toContain('blue')
       expect(wrapper.find('router-link').attributes().to).toEqual('Url')
     })
     it('Should change the look with a class', () => {
-      const wrapper = mount(Button, {
+      const wrapper = mount(Link, {
         props: {
           look: 'yellow'
         }
@@ -27,7 +27,7 @@ describe('Button', () => {
       expect(wrapper.classes()).toContain('yellow')
     })
     it('Should change the button to an external link', () => {
-      const wrapper = mount(Button, {
+      const wrapper = mount(Link, {
         props: {
           type: 'external',
           url: 'Url'
