@@ -115,7 +115,7 @@
       <ul class="wrapper-list">
         <li v-for="community in communities" :key="community.alt">
           <img
-            :src="community.url"
+            :src="img(community.url)"
             :alt="community.alt"
             loading="lazy"
             class="logo-community"
@@ -333,6 +333,10 @@ onMounted(() => {
     { picId: '7bde6d85-a442-4f1b-bd87-86197157b8f0' }
   )
 })
+
+function img(name: string): string {
+  return new URL(`../assets/images/${name}`, import.meta.url).toString()
+}
 </script>
 <style scoped>
 .page-home {
