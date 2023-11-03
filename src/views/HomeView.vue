@@ -25,7 +25,7 @@
         class="image-top-home"
       />
       <img
-        src="@/assets/images/view.png"
+        src="@/assets/images/view.jpg"
         :alt="$t('pages.home.illustration_alt')"
         loading="lazy"
         class="image-top-home"
@@ -99,7 +99,7 @@
       </p>
       <div class="entry-button-catalogue">
         <Link
-          :text="$t('pages.home.more_images_button')"
+          :text="$t('pages.home.discover_more_images_button')"
           look="button button--blue"
           url="/photos"
         />

@@ -29,8 +29,8 @@
   "pages": {
     "home": {
       "title": "L’alternative libre pour photo-cartographier les territoires",
-      "description": "Panoramax recense les prises de vue et permet de visualiser les lieux visibles depuis la voie publique. Porté par la Fabrique des géocommuns de l’IGN, Panoramax propose une alternative aux offres privées de type « street view », en faisant de cet outil un commun numérique.",
-      "more_images_button": "Voir les photos",
+      "description": "Panoramax est une ressource numérique permettant la mise en commun et l'exploitation de photos de terrain. Toute personne peut photographier des lieux visibles depuis la voie publique afin d’alimenter la base de données de Panoramax. Ces données sont ensuite librement accessibles et réutilisables par tous.",
+      "more_images_button": "Voir le catalogue de photos",
       "illustration_alt": "Illustration cartographique",
       "howItWorks_title": "Comment ça marche ?",
       "howItWorks_description": "Panoramax fédère les initiatives (des collectivités, des contributeurs OSM, de l’IGN...) pour favoriser l'émergence d'un géocommun de bases de vues immersives.",
@@ -80,15 +80,16 @@
         "text": "contributeurs",
         "description": "issues de plusieurs structures"
       },
-      "instance_title": "Les instances déjà en ligne",
-      "instance_description": "Deux instances sont dors et déjà disponibles pour verser des photos et contribuer à Panoramax.",
+      "instance_title": "Les instances ouvertes",
+      "instance_description": "Les instances de L'IGN et OSM France sont accessibles à tous. Les données déposées sur l'instance de l'IGN sont publiées sous la licence etalab-2.0, et celles sur l'instance d'OSM France sous licence CC-BY-SA-4.0",
       "instance_explore": "Explorer →",
       "instance_contribute": "Contribuer →",
       "instance_logo_osm_alt": "Logo Open Street Map",
       "instance_logo_ign_alt": "Logo IGN",
       "discover_title": "Découvrez Panoramax",
       "discover_description": "Déplacez vous dans le module ci-dessous",
-      "discover_description_end": "Ou accédez à notre catalogue complet de photo ici :",
+      "discover_description_end": "Ou accédez à notre catalogue complet :",
+      "discover_more_images_button": "Voir les photos",
       "joinUs_title": "Rejoignez-nous !",
       "joinUs_description": "Vous souhaitez participer ou vous tenir informé ? C'est par ici",
       "joinUs_link": {

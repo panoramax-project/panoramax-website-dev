@@ -29,8 +29,8 @@
   "pages": {
     "home": {
       "title": "L’alternative libre pour photo-cartographier les territoires",
-      "description": "Panoramax recense les prises de vue et permet de visualiser les lieux visibles depuis la voie publique. Porté par la Fabrique des géocommuns de l’IGN, Panoramax propose une alternative aux offres privées de type « street view », en faisant de cet outil un commun numérique.",
-      "more_images_button": "Voir les photos",
+      "description": "Panoramax est une ressource numérique permettant la mise en commun et l'exploitation de photos de terrain. Toute personne peut photographier des lieux visibles depuis la voie publique afin d’alimenter la base de données de Panoramax. Ces données sont ensuite librement accessibles et réutilisables par tous.",
+      "more_images_button": "Voir le catalogue de photos",
       "illustration_alt": "Illustration cartographique",
       "howItWorks_title": "Comment ça marche ?",
       "howItWorks_description": "Panoramax fédère les initiatives (des collectivités, des contributeurs OSM, de l’IGN...) pour favoriser l'émergence d'un géocommun de bases de vues immersives.",
