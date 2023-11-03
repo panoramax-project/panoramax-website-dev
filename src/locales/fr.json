@@ -35,7 +35,7 @@
       "howItWorks_title": "Comment ça marche ?",
       "howItWorks_description": "Panoramax fédère les initiatives (des collectivités, des contributeurs OSM, de l’IGN...) pour favoriser l'émergence d'un géocommun de bases de vues immersives.",
       "howItWorks_1": {
-        "title": "Un geocommun",
+        "title": "Un géocommun",
         "description_1": "Des photos de terrain (360° ou non) accessibles à tous",
         "description_2": "Des standards et des règles d’utilisation et de contribution",
         "description_3": "Des bonnes pratiques et des outils pour favoriser les usages",
@@ -47,8 +47,8 @@
       "howItWorks_2": {
         "title": "Un hébergement flexible",
         "description_1": "Une fédération avec des solutions adaptées aux usages de chacun : instance commune ou auto-hébergée",
-        "description_2": "Un principe commun d’ouverture des données ",
-        "description_3": "Des licences d’utilisation libre propres aux instances ",
+        "description_2": "Un principe commun d’ouverture des données",
+        "description_3": "Des licences d’utilisation libres propres aux instances",
         "image": {
           "url": "usecases-icon.svg",
           "alt": "Image d'usages"
@@ -56,7 +56,7 @@
       },
       "howItWorks_3": {
         "title": "Une gouvernance commune",
-        "description_1": "Des processus ouverts de décisions",
+        "description_1": "Des processus ouverts de décision",
         "description_2": "Des moments d’échanges ouverts à tous les membres de la communauté",
         "description_3": "Une multiplicité d’acteurs pour assurer la pérennité du projet",
         "image": {
@@ -78,16 +78,16 @@
       "metrics_3": {
         "number": "137",
         "text": "contributeurs",
-        "description": "issues de plusieurs structures"
+        "description": "issus de plusieurs structures"
       },
       "instance_title": "Les instances ouvertes",
-      "instance_description": "Les instances de L'IGN et OSM France sont accessibles à tous. Les données déposées sur l'instance de l'IGN sont publiées sous la licence etalab-2.0, et celles sur l'instance d'OSM France sous licence CC-BY-SA-4.0",
+      "instance_description": "Les instances de l'IGN et OSM France sont accessibles à tous. Les données déposées sur l'instance de l'IGN sont publiées sous la licence etalab-2.0, et celles sur l'instance d'OSM France sous licence CC-BY-SA-4.0",
       "instance_explore": "Explorer →",
       "instance_contribute": "Contribuer →",
       "instance_logo_osm_alt": "Logo Open Street Map",
       "instance_logo_ign_alt": "Logo IGN",
       "discover_title": "Découvrez Panoramax",
-      "discover_description": "Déplacez vous dans le module ci-dessous",
+      "discover_description": "Déplacez vous dans la visionneuse ci-dessous",
       "discover_description_end": "Ou accédez à notre catalogue complet :",
       "discover_more_images_button": "Voir les photos",
       "joinUs_title": "Rejoignez-nous !",
