@@ -42,8 +42,7 @@ interface Props {
 const props = defineProps<Props>()
 
 function img(name: string): string {
-  const baseUrl = import.meta.url
-  return new URL(`../assets/images/${name}`, baseUrl).toString()
+  return new URL(`../assets/images/${name}`, import.meta.url).toString()
 }
 </script>
 
