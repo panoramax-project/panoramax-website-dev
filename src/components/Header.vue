@@ -7,6 +7,7 @@
           url="/"
           look="link--blue"
           class="instance-logo"
+          @click.native="displayed = !displayed"
         >
           <template v-slot:image>
             <img
@@ -19,6 +20,14 @@
         </Link>
       </div>
       <ul :class="['header-list', { displayed }]">
+        <li class="list-item">
+          <Link
+            :text="$t('general.nav.photos')"
+            url="photos"
+            look="link--blue"
+            @click.native="displayed = !displayed"
+          />
+        </li>
         <li class="list-item instance-item">
           <span class="desktop">{{
             $t('general.nav.panoramax_instance')
@@ -67,9 +76,18 @@
         </li>
         <li class="list-item">
           <Link
+            :text="$t('general.nav.contribute')"
+            url="comment-participer-a-panoramax"
+            look="link--blue"
+            @click.native="displayed = !displayed"
+          />
+        </li>
+        <li class="list-item">
+          <Link
             :text="$t('general.nav.faq')"
             url="foire-aux-questions"
             look="link--blue"
+            @click.native="displayed = !displayed"
           />
         </li>
         <li class="list-item">
