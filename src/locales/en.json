@@ -107,7 +107,7 @@
         "text": "See full calendar",
         "event_link_text": "on Jitsi",
         "event_text_1": "Monthly exchange time",
-        "event_text_2": "13-nov-2023 at 17:00 (CET)",
+        "event_text_2": "11-dec-2023 at 17:00 (CET)",
         "event_link_url": "https://meet.jit.si/panoramax",
         "url": "https://cryptpad.fr/calendar/#/2/calendar/view/WKKDBDTk8kWe5-lm+Z9jLksbn9hkKDRE2dVNj4AKEZk/"
       },
@@ -257,6 +257,8 @@
       "contribute_alt_upload": "Illustration of a person uploading photos",
       "contribute_alt_map": "Illustration of a map",
       "subtitle_guide": "Guide to good practices",
+      "guide_alt_img": "A good quality photo",
+      "guide_alt_img_saturated": "A bad quality photo",
       "guide_alt_like": "A like icon",
       "guide_alt_unlike": "An unlike icon",
       "guide_desc": "To make the photos as easily usable as possible, remember to ensure their level of quality. Here is an illustrated example of a beautiful image (left) versus a degraded image (right). For more details, <a href='https://forum.geocommuns.fr/t/les-tutoriels-pour-contribuer-a-panoramax/1015' target='_blank' rel='noopener'>see our best practices guide</a>.",
@@ -270,7 +272,32 @@
       "use_alt_viewer": "Illustration of an eye which represents a viewer",
       "use_alt_api": "Illustration of a digital machinery which represents an API'",
       "use_alt_detect": "Illustration of object detection",
-      "subtitle_how_to_contribute": "How to get involved in the community ?"
+      "subtitle_how_to_contribute": "How to get involved in the community ?",
+      "how_to_contribute_link": {
+        "title": "Governance workshops",
+        "description": "Discussions to collaboratively decide on the management of the project."
+      },
+      "how_to_contribute_button_1": {
+        "title": "The Geocommons forum",
+        "text": "Go to the forum",
+        "description": "The privileged discussion space of the Panoramax community, open to everyone.",
+        "url": "https://forum.geocommuns.fr/c/panoramax/6"
+      },
+      "how_to_contribute_button_2": {
+        "title": "CNIG working group",
+        "text": "Go",
+        "description": "Location for defining the standard for collecting and distributing photos.",
+        "url": "https://forum.geocommuns.fr/c/panoramax/6"
+      },
+      "how_to_contribute_button_3": {
+        "title": "Discussion time",
+        "text": "See the full agenda",
+        "event_link_text": "on visio on Jitsi",
+        "event_text_1": "Monthly exchange time every 2nd Monday of the month at 5 p.m.",
+        "event_text_2": "11-dec-2023 at 17:00 (CET)",
+        "event_link_url": "https://meet.jit.si/panoramax",
+        "url": "https://cryptpad.fr/calendar/#/2/calendar/view/WKKDBDTk8kWe5-lm+Z9jLksbn9hkKDRE2dVNj4AKEZk/"
+      }
     }
   }
 }

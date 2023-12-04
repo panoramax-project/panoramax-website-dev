@@ -187,13 +187,20 @@ const displayed = ref<boolean>(true)
   align-items: center;
   justify-content: flex-start;
 }
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .header {
     padding: 0;
   }
   .nav {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+}
+@media (max-width: 768px) {
+  .nav {
     position: relative;
-    padding: 1.5rem 2rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
   }
   .burger {
     display: block;
