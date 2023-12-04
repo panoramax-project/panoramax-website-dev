@@ -57,7 +57,7 @@
         </li>
       </ul>
     </section>
-    <section class="section">
+    <section v-if="false" class="section">
       <h2 class="contribute-section-title">
         {{ $t('pages.contribute.subtitle_guide') }}
       </h2>
@@ -108,9 +108,10 @@
           <h3 class="contribute-title">
             {{ $t('pages.contribute.use_title_viewer') }}
           </h3>
-          <p class="contribute-desc">
-            {{ $t('pages.contribute.use_desc_viewer') }}
-          </p>
+          <p
+            v-html="$t('pages.contribute.use_desc_viewer')"
+            class="contribute-desc"
+          />
         </li>
         <li class="list-item item-contribute">
           <img
@@ -122,9 +123,10 @@
           <h3 class="contribute-title">
             {{ $t('pages.contribute.use_title_api') }}
           </h3>
-          <p class="contribute-desc">
-            {{ $t('pages.contribute.use_desc_api') }}
-          </p>
+          <p
+            v-html="$t('pages.contribute.use_desc_api')"
+            class="contribute-desc"
+          />
         </li>
         <li class="list-item item-contribute">
           <img
@@ -302,6 +304,7 @@ const how_to_contribute_buttons = <HowToContributeData[]>[
 .main-description {
   font-size: 1.6rem;
   color: var(--grey-dark);
+  white-space: pre-line;
 }
 .contribute-desc {
   font-size: 1.4rem;
