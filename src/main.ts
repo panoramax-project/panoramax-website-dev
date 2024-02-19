@@ -5,8 +5,17 @@ import router from './router'
 import fr from './locales/fr.json'
 import en from './locales/en.json'
 import 'geovisio/build/index.css'
-
 import './assets/main.css'
+
+declare global {
+  interface Window {
+    _paq: any[]
+  }
+}
+
+const matomoHost = import.meta.env.VITE_MATOMO_HOST
+const matomoSiteId = import.meta.env.VITE_MATOMO_SITE_ID
+const matomoExist = matomoHost && matomoSiteId
 
 const i18n = createI18n({
   locale: navigator.language.split('-')[0],
@@ -23,5 +32,4 @@ const app = createApp(App)
 
 app.use(i18n)
 app.use(router)
-
 app.mount('#app')

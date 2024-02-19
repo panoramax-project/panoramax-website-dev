@@ -434,7 +434,7 @@ const how_to_contribute_buttons = <HowToContributeData[]>[
     text-align: center;
   }
   .contribute-img {
-    height: 12rem;
+    height: 10rem;
   }
   .item-contribute:nth-child(2) {
     margin-right: 0;
